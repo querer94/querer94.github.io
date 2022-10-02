@@ -102,7 +102,6 @@ html, body {
 .main_2_left {
   width: 54.40%;
   position: absolute;
-  background-color: #911;
 }
 
 .info1 {
@@ -126,11 +125,10 @@ html, body {
 }
 
 .main_2_right {
-  padding-left:56px;
+  padding-left: 3%;
   width: 45.60%;
   position: absolute;
   right: 0;
-  background-color: rgb(17, 101, 153);
 }
 
 .skill {
