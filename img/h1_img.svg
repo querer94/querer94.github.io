@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="991px" height="722px" viewBox="0 0 991 722" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Pretendard-SemiBold, Pretendard" font-weight="500">
+        <g id="Artboard-Copy-2" transform="translate(-56.000000, -134.000000)" fill="#ECECEC">
+            <g id="Group-4" transform="translate(56.000000, 134.000000)">
+                <text id="Hello,-I-am-Develope" font-size="210" line-spacing="176">
+                    <tspan x="0" y="203">Hello,</tspan>
+                    <tspan x="0" y="379">I am </tspan>
+                    <tspan x="0" y="555" line-spacing="166">Developer</tspan>
+                </text>
+                <text id="MIN-ByeongHak." font-size="130" line-spacing="166">
+                    <tspan x="0" y="681">MIN ByeongHak.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
