@@ -3,6 +3,7 @@
   padding: 0;
   color: #fff;
   font-family: 'Pretendard';
+  text-decoration-line: none;
 }
 
 *,
@@ -19,6 +20,7 @@
 html, body {
   width: 100%;
   background-color: #262523;
+  scroll-behavior: smooth;
 }
 
 #main {
@@ -46,19 +48,26 @@ html, body {
 .portfolio {
   height: 134px;
   display: inline-block;
+  margin-left: 2%;
 }
 
 .portfolio h2 {
-  margin-left: 5%;
   font-size: 40px;
+  text-decoration-line: overline;
 }
 
 .list {
   float: right;
   height: 134px;
-  line-height: 160%;
-  padding: 35px 0 35px 0;
-  margin-right: 1%;
+  margin-right: 2%;
+  line-height: 32px;
+
+}
+
+.list li {
+  position: relative;
+  list-style: circle;
+  font-size: 16px;
 }
 
 .main_1 {
@@ -80,13 +89,25 @@ html, body {
 }
 
 .main_right h2 {
+  font-size: 24px;
   box-shadow: 0 3px 0 0;
 }
 
 .main_right p {
-  font-size: 0.9rem;
-  line-height: 140%;
+  font-size: 18px;
+  line-height: 160%;
 }
+
+.main_2_right {
+  margin-top: 3%;
+  width: 45.60%;
+}
+
+.main_2_right p {
+  font-size: 15px;
+  line-height: 120%;
+}
+
 .project {
   width: 100%;
 }
@@ -100,50 +121,31 @@ html, body {
   width: 100%;
   height: 134px;
   position: relative;
+  margin-top: 1%;
 }
 
 .main_2_left {
   bottom: 0;
-  width: 54.40%;
-  margin: 0 0 1% 1%;
+  width: 100%;
+  margin: 0 0 2% 2%;
   position: absolute;
+  line-height: 120%;
 }
 
 .info1 {
   display: inline-block;
-  font-size: 0.8rem;
-  width: 10%;
+  font-size: 14px;
 }
 
 .info2 {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 14px;
   margin-left: 40px;
-  width: 20%;
 }
 
 .info3 {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 14px;
   margin-left: 40px;
-  width: 58%;
-}
-
-.main_2_right {
-  padding-left: 3%;
-  width: 45.60%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 0 1% 1% 0;
-}
-
-.skill {
-  display: inline-block;
-  font-size: 0.8rem;
-}
-
-.skills {
-  display: inline-block;
-  font-size: 0.8rem;
+  width: 81%;
 }
