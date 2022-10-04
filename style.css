@@ -293,10 +293,22 @@ html, body {
   
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:767px){
+
+  .main_left {
+    width: 100%;
+    display: block;
+  }
+  
+  .main_right {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    padding: 2% 2% 0 2%;
+  }
 
   .main_2 {
-    margin-top: 85%;
+    margin-top: 80%;
   }
 
   .main_right h2 {
@@ -311,21 +323,21 @@ html, body {
 
   .info1 {
     font-size: 10px;
-    width: 5%;
+    width: 1%;
     line-height: 140%;
   }
 
   .info2 {
     font-size: 10px;
-    width: 35%;
+    width: 10%;
     line-height: 140%;
   }
   
   .info3 {
-    margin-top: 5%;
+    margin-top: 3%;
     display: inline-block;
     font-size: 1px;
-    width: 96%;
+    width: 71%;
   }
   
   .list {
