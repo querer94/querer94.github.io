@@ -354,11 +354,11 @@ html, body {
   }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:320px){
 
 
   .portfolio h2 {
-    font-size: 30px;
+    font-size: 14px;
     text-decoration-line: overline;
   }
 
@@ -375,7 +375,7 @@ html, body {
   }
 
   .main_2 {
-    margin-top: 190%;
+    margin-top: 310%;
   }
 
   .main_right h2 {
@@ -390,13 +390,13 @@ html, body {
 
   .info1 {
     font-size: 10px;
-    width: 15%;
+    width: 10%;
     line-height: 140%;
   }
 
   .info2 {
     font-size: 10px;
-    width: 30%;
+    width: 50%;
     line-height: 140%;
   }
   
