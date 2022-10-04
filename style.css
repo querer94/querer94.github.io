@@ -97,16 +97,6 @@ html, body {
   line-height: 160%;
 }
 
-.main_2_right {
-  margin-top: 3%;
-  width: 45.60%;
-}
-
-.skills {
-  position: absolute;
-  width: 100%;
-}
-
 .main_2_right p {
   font-size: 15px;
   line-height: 120%;
@@ -335,7 +325,6 @@ html, body {
   
   .info3 {
     margin-top: 3%;
-    display: inline-block;
     font-size: 1px;
     width: 71%;
   }
@@ -381,11 +370,9 @@ html, body {
   .main_left {
     width: 100%;
     display: block;
-    
   }
   
   .main_right {
-    display: inline-block;
     width: 100%;
     position: absolute;
     padding: 2% 2% 0 2%;
@@ -393,9 +380,11 @@ html, body {
   }
 
   .main_2 {
-    margin-top: 140%;
-    
+    width: 100%;
+    position: relative;
+    margin-top: 115%;
   }
+
 
   .main_right h2 {
     font-size: 14px;
@@ -421,7 +410,6 @@ html, body {
   
   .info3 {
     margin-top: 3%;
-    display: inline-block;
     font-size: 1px;
     width: 96%;
   }
@@ -510,7 +498,6 @@ html, body {
   
   .info3 {
     margin-top: 3%;
-    display: inline-block;
     font-size: 1px;
     width: 96%;
   }
