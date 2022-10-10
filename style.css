@@ -106,11 +106,13 @@ body {
 .main_right p {
   font-size: 18px;
   line-height: 160%;
+  font-size : clamp(0.5rem, 1.1vw, 1.5rem);
 }
 
-.main_2_right p {
+.main_2 p {
   font-size: 15px;
   line-height: 120%;
+  font-size : clamp(0.1rem, 0.8vw, 1rem);
 }
 
 /************ Project 1 ************/
@@ -130,35 +132,35 @@ body {
   width: 100%;
   height: 134px;
   position: relative;
-  margin-top: 1%;
+  margin-top: 2%;
+  padding: 0 2% 2% 2%;
 }
 
 .info {
   bottom: 0;
   width: 100%;
   position: absolute;
+  margin-bottom: 2%;
   line-height: 120%;
-  margin: 0 2% 2% 2%;
 }
 
 .info_1 {
   display: inline-block;
   font-size: 14px;
-  width: 3%;
   margin-right: 40px;
 }
 
 .info_2 {
   display: inline-block;
   font-size: 14px;
-  width: 8%;
   margin-right: 40px;
 }
 
 .info_3 {
   display: inline-block;
   font-size: 14px;
-  width: calc(84.5% - 80px);
+  width: calc(84.5% - 86px);
+  margin-right: 40px;
 }
 
 /****************************** Page2 ******************************/
@@ -211,7 +213,7 @@ body {
   position: relative;
   background-color: rgb(255, 255, 255);
   width: 37%;
-  height: 263px;
+  height: 300px;
   box-shadow: 0 0 0 1px;
   display: inline-block;
   margin: 2% 0 0 2%;
@@ -255,10 +257,12 @@ body {
 }
 
 .card_4 {
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   font-size: 15px;
   font-weight: 400;
-  margin: 0 16% 0 0;
+  margin: 0 12% 3% 0;
   color: #262523;
 }
 
@@ -271,6 +275,10 @@ body {
   width: 57%;
   float: right;
   margin: 2% 2% 0 2%;
+}
+
+.card_r p {
+  font-size : clamp(0.8rem, 1.2vw, 1.5rem);
 }
 
 /************ Github Logo ************/
@@ -314,109 +322,10 @@ body {
 
 /****************************** 반응형 ******************************/
 
-/************ 1680 ************/
-@media screen and (max-width:1680px) {
-  .main_2 {
-    margin-top: 35px;
-  }
-
-  .main_right h2 {
-    font-size: 24px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 15px;
-    line-height: 160%;
-  }
-
-  .info_2 {
-    display: inline-block;
-    font-size: 14px;
-    width: 10%;
-    margin-right: 40px;
-  }
-
-  .info_3 {
-    display: inline-block;
-    font-size: 12px;
-    width: calc(82.5% - 80px);
-  }
-
-}
-
-/************ 1440 ************/
-@media screen and (max-width:1440px) {
-  .main_2 {
-    margin-top: 40px;
-  }
-
-  .main_right h2 {
-    font-size: 20px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 14px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    display: inline-block;
-    font-size: 12px;
-    width: 3%;
-    margin-right: 40px;
-  }
-
-  .info_2 {
-    display: inline-block;
-    font-size: 12px;
-    width: 12%;
-    margin-right: 40px;
-  }
-
-  .info_3 {
-    display: inline-block;
-    font-size: 10px;
-    width: calc(80.5% - 80px);
-  }
-
-}
-
 /************ 1300 ************/
 @media screen and (max-width:1300px) {
   .main_2 {
-    margin-top: 40px;
-  }
-
-  .main_right h2 {
-    font-size: 18px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 12px;
-    line-height: 140%;
-  }
-
-  .info_1 {
-    display: inline-block;
-    font-size: 12px;
-    width: 3%;
-    margin-right: 40px;
-  }
-
-  .info_2 {
-    display: inline-block;
-    font-size: 12px;
-    width: 12%;
-    margin-right: 40px;
-  }
-
-  .info_3 {
-    display: inline-block;
-    font-size: 8px;
-    width: calc(80.5% - 80px);
+    margin-top: 20px;
   }
 
 }
@@ -424,32 +333,7 @@ body {
 /************ 1024 ************/
 @media screen and (max-width:1024px) {
   .main_2 {
-    margin-top: 100px;
-  }
-
-  .main_right h2 {
-    font-size: 16px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 10px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    font-size: 12px;
-  }
-
-  .info_2 {
-    font-size: 12px;
-    width: 14%;
-  }
-
-  .info_3 {
-    display: inline-block;
-    font-size: 1px;
-    width: calc(78% - 80px);
+    margin-top: 40px;
   }
 
 }
@@ -457,9 +341,25 @@ body {
 /************ 900 ************/
 @media screen and (max-width:900px) {
   .main_2 {
-    margin-top: 130px;
+    margin-top: 70px;
   }
 }
+
+/************ 850 ************/
+@media screen and (max-width:850px) {
+  .main_2 {
+    margin-top: 80px;
+  }
+}
+
+
+/************ 800 ************/
+@media screen and (max-width:800px) {
+  .main_2 {
+    margin-top: 100px;
+  }
+}
+
 
 /************ 767 ************/
 @media screen and (max-width:767px) {
@@ -473,41 +373,19 @@ body {
     display: inline-block;
     width: 100%;
     position: absolute;
-    padding: 2% 2% 0 2%;
   }
 
   .main_2 {
     margin-top: 80%;
   }
 
-  .main_right h2 {
-    font-size: 14px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 10px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    font-size: 10px;
-    width: 1%;
-    line-height: 140%;
-  }
-
-  .info_2 {
-    font-size: 10px;
-    width: 10%;
-    line-height: 140%;
-  }
-
   .info_3 {
-    margin-top: 3%;
-    font-size: 1px;
-    width: 71%;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1%;
+    padding-right: 4%;
   }
-
+  
   .menu {
     display: table;
     float: right;
@@ -539,34 +417,6 @@ body {
 
   .main_2 {
     margin-top: 90%;
-  }
-
-  .main_right h2 {
-    font-size: 14px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 10px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    font-size: 10px;
-    width: 1%;
-    line-height: 140%;
-  }
-
-  .info_2 {
-    font-size: 10px;
-    width: 10%;
-    line-height: 140%;
-  }
-
-  .info_3 {
-    margin-top: 3%;
-    font-size: 1px;
-    width: 71%;
   }
 
   .menu {
@@ -617,44 +467,17 @@ body {
     width: 100%;
     position: absolute;
     padding: 2% 2% 0 2%;
-
   }
 
   .main_2 {
     width: 100%;
     position: relative;
-    margin-top: 115%;
+    margin-top: 100%;
   }
-
-
-  .main_right h2 {
-    font-size: 14px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 10px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    font-size: 10px;
-    width: 10%;
-    line-height: 140%;
-  }
-
-  .info_2 {
-    font-size: 10px;
-    width: 30%;
-    line-height: 140%;
-  }
-
+  
   .info_3 {
-    margin-top: 3%;
-    font-size: 1px;
-    width: 96%;
+    margin-top: 2%;
   }
-
   .menu {
     display: table;
     float: right;
@@ -694,11 +517,6 @@ body {
     line-height: 127px;
   }
 
-  .logo h2 {
-    font-size: 26px;
-    text-decoration-line: overline;
-  }
-
   .main_left {
     width: 100%;
     display: block;
@@ -712,35 +530,7 @@ body {
   }
 
   .main_2 {
-    margin-top: 190%;
-  }
-
-  .main_right h2 {
-    font-size: 14px;
-    box-shadow: 0 3px 0 0;
-  }
-
-  .main_right p {
-    font-size: 10px;
-    line-height: 160%;
-  }
-
-  .info_1 {
-    font-size: 10px;
-    width: 10%;
-    line-height: 140%;
-  }
-
-  .info_2 {
-    font-size: 10px;
-    width: 50%;
-    line-height: 140%;
-  }
-
-  .info_3 {
-    margin-top: 3%;
-    font-size: 1px;
-    width: 96%;
+    margin-top: 150%;
   }
 
   .menu {
