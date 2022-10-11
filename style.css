@@ -394,7 +394,7 @@ body {
   }
 
   .menu a {
-    display: table-scell;
+    display: table-cell;
     font-size: 14px;
     padding: 0;
   }
