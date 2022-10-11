@@ -205,11 +205,6 @@ body {
   width: 100%;
 }
 
-.about_2 {
-  margin-left: 2%;
-  width: 100%;
-}
-
 /************ 명함 ************/
 .card {
   position: relative;
@@ -277,10 +272,20 @@ body {
   width: 55%;
   float: right;
   margin: 2% 2% 0 4%;
+  line-height: 180%;
 }
 
 .card_r p {
   font-size : clamp(0.8rem, 1.2vw, 1.5rem);
+}
+
+.about_2 {
+  padding-left: 2%;
+  width: 100%;
+}
+
+.skill_1 {
+  width: 100%;
 }
 
 /****************************** 반응형 ******************************/
