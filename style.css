@@ -289,6 +289,16 @@ body {
   height: 110px;
 }
 
+.language {
+  display: inline-block;
+  width: 70%;
+}
+
+.language img {
+  width: 50px;
+  height: 50px;
+}
+
 /****************************** 반응형 ******************************/
 
 /************ 1300 ************/
