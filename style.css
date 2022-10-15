@@ -42,22 +42,21 @@ body {
   position: fixed;
   width: calc(100% - 104px);
   margin-left: 52px;
-  height: 134px;
+  height: 100px;
   border-right: solid #fff;
   border-left: solid #fff;
-  
   top: 0;
   left: 0;
   z-index: 9999;
   background-color: #262523;
-  line-height: 127px;
+  line-height: 100px;
 }
 
 /************ Logo ************/
 .logo {
-  height: 134px;
+  height: 100px;
   display: inline-block;
-  margin-left: 2%;
+  margin-left: 2.2%;
 }
 
 .logo h2 {
@@ -70,7 +69,7 @@ body {
   display: table;
   float: right;
   width: 220px;
-  line-height: 78px;
+  line-height: 50px;
 }
 
 .menu a {
@@ -82,7 +81,7 @@ body {
 /************ 메인 상단 구역 ************/
 .main_1 {
   width: 100%;
-  padding-top: 134px;
+  padding-top: 100px;
   position: relative;
 }
 
@@ -103,18 +102,19 @@ body {
 .main_right h2 {
   font-size: 24px;
   box-shadow: 0 1px 0 0;
+  line-height: 150%;
 }
 
 .main_right p {
   font-size: 18px;
   line-height: 160%;
-  font-size : clamp(0.5rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
 }
 
 .main_2 p {
   font-size: 15px;
   line-height: 120%;
-  font-size : clamp(0.1rem, 0.8vw, 1rem);
+  font-size: clamp(0.1rem, 0.8vw, 1rem);
 }
 
 /************ Project 1 ************/
@@ -175,23 +175,27 @@ body {
   border-style: solid;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -133px;
-  padding-top: 133px;
+  margin-top: -99px;
+  padding-top: 99px;
 }
+
 .s_main_1 {
   position: relative;
   display: inline-block;
   width: 100%;
 }
+
 .s_main_1_l {
   display: inline-block;
   width: 59.7%;
   margin: 0 0 3% 2.5%;
 }
+
 .somewhere_main {
   width: 95.8%;
   box-shadow: 0 0 0 1px;
 }
+
 .s_main_1_r {
   display: inline-block;
   width: 38%;
@@ -199,20 +203,22 @@ body {
   top: 0;
   padding-right: 2.5%;
 }
-.s_main_1_r p{
+
+.s_main_1_r p {
   font-size: 18px;
   line-height: 120%;
-  font-size : clamp(0.5rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
 }
 
 .s_main_2 {
   position: relative;
   width: 100%;
 }
+
 .s_main_2 p {
   font-size: 15px;
   line-height: 120%;
-  font-size : clamp(0.1rem, 1vw, 1rem);
+  font-size: clamp(0.1rem, 1vw, 1rem);
   text-align: center;
 }
 
@@ -227,8 +233,8 @@ body {
   width: 29%;
   margin-right: 2%;
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   text-align: center;
 }
 
@@ -242,8 +248,8 @@ body {
   border-style: solid;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -133px;
-  padding-top: 133px;
+  margin-top: -99px;
+  padding-top: 99px;
 }
 
 .f_main_1 {
@@ -251,15 +257,18 @@ body {
   display: inline-block;
   width: 100%;
 }
+
 .f_main_1_l {
   display: inline-block;
   width: 59.7%;
   margin: 0 0 3% 2.5%;
 }
+
 .fridegemap_main {
   width: 95.8%;
   box-shadow: 0 0 0 1px;
 }
+
 .f_main_1_r {
   display: inline-block;
   width: 38%;
@@ -267,20 +276,22 @@ body {
   top: 0;
   padding-right: 2.5%;
 }
-.f_main_1_r p{
+
+.f_main_1_r p {
   font-size: 18px;
   line-height: 120%;
-  font-size : clamp(0.5rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
 }
 
 .f_main_2 {
   position: relative;
   width: 100%;
 }
+
 .f_main_2 p {
   font-size: 15px;
   line-height: 120%;
-  font-size : clamp(0.1rem, 1vw, 1rem);
+  font-size: clamp(0.1rem, 1vw, 1rem);
   text-align: center;
 }
 
@@ -295,8 +306,8 @@ body {
   width: 29%;
   margin-right: 2%;
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   text-align: center;
 }
 
@@ -310,8 +321,8 @@ body {
   position: relative;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
      틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -133px;
-  padding-top: 133px;
+  margin-top: -99px;
+  padding-top: 99px;
 }
 
 .language {
@@ -399,7 +410,7 @@ body {
 }
 
 .card_r p {
-  font-size : clamp(0.8rem, 1.2vw, 1.5rem);
+  font-size: clamp(0.8rem, 1.2vw, 1.5rem);
 }
 
 .about_2 {
@@ -421,7 +432,7 @@ body {
   width: 50px;
   height: 50px;
   display: inline-block;
-  top:50%;
+  top: 50%;
   transform: translateY(45%);
 
 }
@@ -487,7 +498,7 @@ body {
     margin-top: 1%;
     padding-right: 4%;
   }
-  
+
   .menu {
     display: table;
     float: right;
@@ -576,7 +587,7 @@ body {
     position: relative;
     margin-top: 100%;
   }
-  
+
   .info_3 {
     margin-top: 2%;
   }
