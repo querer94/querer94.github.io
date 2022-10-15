@@ -173,6 +173,10 @@ body {
   border-width: 0 3px 3px 3px;
   border-bottom: 0.5px;
   border-style: solid;
+  /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
+    틀어지는 문제를 해결하기 위한 설정 */
+  margin-top: -133px;
+  padding-top: 133px;
 }
 .s_main_1 {
   position: relative;
@@ -236,6 +240,10 @@ body {
   border-width: 0 3px 3px 3px;
   border-bottom: 0.5px;
   border-style: solid;
+  /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
+    틀어지는 문제를 해결하기 위한 설정 */
+  margin-top: -133px;
+  padding-top: 133px;
 }
 
 .f_main_1 {
@@ -300,6 +308,10 @@ body {
   border-width: 0 3px 3px 3px;
   border-style: solid;
   position: relative;
+  /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
+     틀어지는 문제를 해결하기 위한 설정 */
+  margin-top: -133px;
+  padding-top: 133px;
 }
 
 .language {
