@@ -32,7 +32,7 @@ body {
   width: calc(100% - 104px);
   margin-left: 52px;
   height: calc(100% + 80px);
-  border: 3px;
+  border: 0px;
   border-bottom: 0.5px;
   border-style: solid;
 }
@@ -40,11 +40,9 @@ body {
 /************ Header ************/
 .header {
   position: fixed;
-  width: calc(100% - 104px);
-  margin-left: 52px;
+  width: 100%;
   height: 100px;
-  border-right: solid #fff;
-  border-left: solid #fff;
+  border-bottom: solid #dcdcdc 0.5px;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -56,12 +54,12 @@ body {
 .logo {
   height: 100px;
   display: inline-block;
-  margin-left: 2.2%;
 }
 
 .logo h2 {
-  font-size: 40px;
-  text-decoration-line: overline;
+  font-size: 32px;
+  font-weight: 200;
+  margin-left: 52px;
 }
 
 /************ Menu ************/
@@ -120,7 +118,7 @@ body {
 /************ Project 1 ************/
 .somewhere {
   width: 100%;
-  box-shadow: 0 0 0 1px;
+
 }
 
 /************ Project 2 ************/
@@ -172,7 +170,7 @@ body {
   height: calc(100% + 80px);
   border-width: 0 3px 3px 3px;
   border-bottom: 0.5px;
-  border-style: solid;
+
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
   margin-top: -99px;
@@ -193,7 +191,7 @@ body {
 
 .somewhere_main {
   width: 95.8%;
-  box-shadow: 0 0 0 1px;
+
 }
 
 .s_main_1_r {
@@ -245,7 +243,7 @@ body {
   height: calc(100% + 80px);
   border-width: 0 3px 3px 3px;
   border-bottom: 0.5px;
-  border-style: solid;
+
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
   margin-top: -99px;
@@ -317,7 +315,6 @@ body {
   margin-left: 52px;
   height: calc(100% + 80px);
   border-width: 0 3px 3px 3px;
-  border-style: solid;
   position: relative;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
      틀어지는 문제를 해결하기 위한 설정 */
