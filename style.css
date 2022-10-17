@@ -41,13 +41,13 @@ body {
 .header {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 80px;
   border-bottom: solid #dcdcdc 0.5px;
   top: 0;
   left: 0;
   z-index: 9999;
   background-color: #262523;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 /************ Logo ************/
@@ -66,8 +66,8 @@ body {
 /************ Menu ************/
 .menu {
   float: right;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
   margin-right: 52px;
   padding-right: 2%;
 }
@@ -111,12 +111,6 @@ body {
   font-size: clamp(0.5rem, 1vw, 1.5rem);
 }
 
-.main_2 p {
-  font-size: 15px;
-  line-height: 120%;
-  font-size: clamp(0.1rem, 0.8vw, 1rem);
-}
-
 /************ Project 1 ************/
 .somewhere {
   width: 100%;
@@ -134,10 +128,15 @@ body {
 /************ 메인 하단 구역 ************/
 .main_2 {
   width: 100%;
-  height: 110px;
   position: relative;
   margin: 0 0 2% 0;
-  padding: 0 2.5% 0 2.5%;
+  padding: 4% 2.5% 0 2.5%;
+}
+
+.main_2 p {
+  font-size: 15px;
+  line-height: 120%;
+  font-size: clamp(0.1rem, 0.8vw, 1rem);
 }
 
 .info {
@@ -177,8 +176,8 @@ body {
 
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -99px;
-  padding-top: 99px;
+  margin-top: -79px;
+  padding-top: 79px;
 }
 
 .s_main_1 {
@@ -248,8 +247,8 @@ body {
   border-bottom: solid #dcdcdc 0.5px;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -99px;
-  padding-top: 99px;
+  margin-top: -79px;
+  padding-top: 79px;  
 }
 
 .f_main_1 {
@@ -329,8 +328,8 @@ body {
   position: relative;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
      틀어지는 문제를 해결하기 위한 설정 */
-  margin-top: -99px;
-  padding-top: 99px;
+  margin-top: -79px;
+  padding-top: 79px;
 }
 
 .page_4_l {
