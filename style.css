@@ -54,13 +54,13 @@ body {
 .logo {
   height: 100px;
   display: inline-block;
+  padding-left: 2.3%;
 }
 
 .logo h2 {
   font-size: 32px;
   font-weight: 200;
   margin-left: 52px;
-  padding-left: 28%;
 }
 
 /************ Menu ************/
@@ -73,7 +73,7 @@ body {
 }
 
 .menu a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   padding-right: 30px;
 }
@@ -108,7 +108,7 @@ body {
 .main_right p {
   font-size: 18px;
   line-height: 160%;
-  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1vw, 1.5rem);
 }
 
 .main_2 p {
@@ -130,9 +130,9 @@ body {
 /************ 메인 하단 구역 ************/
 .main_2 {
   width: 100%;
-  height: 134px;
+  height: 110px;
   position: relative;
-  margin: 2% 0 2% 0;
+  margin: 0 0 2% 0;
   padding: 0 2.5% 0 2.5%;
 }
 
@@ -162,13 +162,6 @@ body {
 
 }
 
-.me {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding-right: 2.5%;
-  width: 7%;
-}
 
 /****************************** Page2 ******************************/
 #page_2 {
@@ -221,13 +214,6 @@ body {
   width: 100%;
 }
 
-.s_main_2 > p {
-  font-size: 15px;
-  line-height: 120%;
-  text-align: center;
-  font-size: clamp(0.1rem, 10vw, 1rem);
-}
-
 .s_main_2_l {
   display: inline-block;
   width: 69%;
@@ -243,6 +229,12 @@ body {
   top: 0;
   right: 0;
 }
+
+.s_main_1_r h3 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
 
 /****************************** Page3 ******************************/
 #page_3 {
@@ -283,6 +275,11 @@ body {
   padding-right: 2.5%;
 }
 
+.f_main_1_r h3 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
 .f_main_1_r p {
   font-size: 18px;
   line-height: 120%;
@@ -294,28 +291,34 @@ body {
   width: 100%;
 }
 
-.f_main_2 > p {
-  font-size: 15px;
-  line-height: 120%;
-  text-align: center;
-  font-size: clamp(0.1rem, 10vw, 1rem);
+.f_main_2_1 {
+  width: 33.1%;
+  display: inline-block;
+  padding: 0 2.5% 0 2.5%;
+}
+.f_main_2_2 {
+  width: 33.1%;
+  display: inline-block;
+  padding: 0 2.5% 0 2.5%;
+
+}
+.f_main_2_3 {
+  width: 33.1%;
+  display: inline-block;
+  padding: 0 2.5% 0 2.5%;
 }
 
-.f_main_2_l {
+.f_main_2_4 {
+  width: 30%;
   display: inline-block;
-  width: 69%;
-  padding: 0 0 0 2.5%;
-  font-size: 18px;
+  padding: 2% 2.5% 0 2.5%;
 }
 
-.f_main_2_r {
-  display: inline-block;
-  width: 29%;
-  margin-right: 2%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
+
+
+
+
 
 /****************************** Page4 ******************************/
 #page_4 {
@@ -330,117 +333,16 @@ body {
   padding-top: 99px;
 }
 
-.language {
-  display: inline-block;
-  width: 70%;
-}
-
-.language img {
-  width: 50px;
-  height: 50px;
-}
-
-.about_1 {
-  width: 100%;
-}
-
-/************ 명함 ************/
-.card {
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  width: 30%;
-  height: 300px;
-  box-shadow: 0 0 0 1px;
-  display: inline-block;
-  margin: 2% 0 2% 2%;
-}
-
-.line {
-  position: absolute;
-  right: 30px;
-  top: 0;
-  z-index: 1;
-  background-color: #5e2a7d;
-  width: 3%;
-  height: 100%;
-}
-
-.git_logo {
-  margin: 2.5% 0 0.5% 2.5%;
-  width: 50px;
-  height: 50px;
-}
-
-.card_1 {
-  margin: 0 0 0 3%;
-  letter-spacing: 12px;
-  font-size: 35px;
-  color: #262523;
-}
-
-.card_2 {
-  margin: 1% 0 0 3.5%;
-  font-weight: 400;
-  font-size: 20px;
-  color: #262523;
-}
-
-.card_3 {
-  margin: 0 0 3% 3.5%;
-  font-weight: 400;
-  font-size: 14px;
-  color: #262523;
-}
-
-.card_4 {
+.me {
   position: absolute;
   right: 0;
   bottom: 0;
-  font-size: 15px;
-  font-weight: 400;
-  margin: 0 12% 3% 0;
-  color: #262523;
+  padding-right: 2.5%;
+  width: 5.5%;
 }
 
-.card_4 b {
-  color: #262523;
-}
 
-/************ about_1 오른쪽 구역 ************/
-.card_r {
-  width: 55%;
-  float: right;
-  margin: 2% 2% 0 4%;
-  line-height: 180%;
-}
 
-.card_r p {
-  font-size: clamp(0.8rem, 1.2vw, 1.5rem);
-}
-
-.about_2 {
-  padding-left: 2%;
-  width: 100%;
-}
-
-.skill_1 {
-  width: 100%;
-  height: 110px;
-}
-
-.language {
-  display: inline-block;
-  width: 70%;
-}
-
-.language img {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  top: 50%;
-  transform: translateY(45%);
-
-}
 
 /****************************** 반응형 ******************************/
 
