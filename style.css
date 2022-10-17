@@ -82,6 +82,7 @@ body {
 .main_1 {
   width: 100%;
   padding-top: 100px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -207,8 +208,8 @@ body {
 
 .s_main_1_r p {
   font-size: 18px;
-  line-height: 120%;
-  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
+  line-height: 140%;
+  font-size: clamp(0.6rem, 0.9vw, 1.5rem);
 }
 
 .s_main_2 {
@@ -233,9 +234,11 @@ body {
 }
 
 .s_main_1_r h3 {
-  font-size: 22px;
+  font-size: clamp(0.8rem, 1.1vw, 1.5rem); 
   font-weight: 100;
 }
+
+
 
 
 /****************************** Page3 ******************************/
@@ -277,14 +280,13 @@ body {
 }
 
 .f_main_1_r h3 {
-  font-size: 22px;
   font-weight: 100;
+  font-size: clamp(0.8rem, 1.1vw, 1.5rem); 
 }
 
 .f_main_1_r p {
-  font-size: 18px;
   line-height: 120%;
-  font-size: clamp(0.5rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.6rem, 0.9vw, 1.5rem);
 }
 
 .f_main_2 {
