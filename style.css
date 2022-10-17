@@ -122,6 +122,10 @@ body {
   width: 100%;
 }
 
+.somewhere:hover {
+  width: 100%;
+}
+
 /************ Project 2 ************/
 .fridgemap {
   width: 100%;
@@ -169,8 +173,7 @@ body {
   margin-left: 52px;
   height: calc(100% + 80px);
   border: 0px;
-  border-bottom: 0.5px;
-  border-style: solid;
+  border-bottom: solid #dcdcdc 0.5px;
 
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
@@ -242,8 +245,7 @@ body {
   margin-left: 52px;
   height: calc(100% + 80px);
   border: 0px;
-  border-bottom: 0.5px;
-  border-style: solid;
+  border-bottom: solid #dcdcdc 0.5px;
   /* 헤더가 fixed나 sticky일때 내부 링크로 이동시키면 위치가
     틀어지는 문제를 해결하기 위한 설정 */
   margin-top: -99px;
@@ -289,6 +291,11 @@ body {
 .f_main_2 {
   position: relative;
   width: 100%;
+  padding-bottom: 3%;
+}
+
+.f_main_2 h3 {
+  font-weight: 100;
 }
 
 .f_main_2_1 {
@@ -308,12 +315,6 @@ body {
   padding: 0 2.5% 0 2.5%;
 }
 
-.f_main_2_4 {
-  width: 30%;
-  display: inline-block;
-  padding: 2% 2.5% 0 2.5%;
-}
-
 
 
 
@@ -322,8 +323,7 @@ body {
 
 /****************************** Page4 ******************************/
 #page_4 {
-  width: calc(100% - 104px);
-  margin-left: 52px;
+  width: 100%;
   height: calc(100% + 80px);
   border-width: 0 3px 3px 3px;
   position: relative;
@@ -333,6 +333,20 @@ body {
   padding-top: 99px;
 }
 
+.page_4_l {
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  padding: 10rem 8rem 8rem 12rem;
+}
+
+.page_4_r {
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  right: 0;
+}
+
 .me {
   position: absolute;
   right: 0;
@@ -340,7 +354,6 @@ body {
   padding-right: 2.5%;
   width: 5.5%;
 }
-
 
 
 
