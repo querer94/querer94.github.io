@@ -118,13 +118,11 @@ body {
 }
 
 .somewhere:hover {
-  width: 100%;
+  opacity: 0.5;
 }
 
 /************ Project 2 ************/
-.fridgemap {
-  width: 100%;
-}
+
 
 /************ 메인 하단 구역 ************/
 .main_2 {
@@ -285,7 +283,7 @@ body {
 }
 
 .f_main_1_r p {
-  line-height: 120%;
+  line-height: 140%;
   font-size: clamp(0.6rem, 0.9vw, 1.5rem);
 }
 
@@ -338,7 +336,9 @@ body {
   position: absolute;
   display: inline-block;
   width: 50%;
-  padding: 10rem 8rem 8rem 12rem;
+  right: 50%;
+  top: 40%;
+  transform: translate(25%,40%);
 }
 
 .page_4_r {
