@@ -16,16 +16,15 @@
     <!------------- Header ------------->
     <div class="header">
       <div class="logo">
-        <a href="#page_1">
+        <a onclick="location.href='#page_1'"style="cursor:pointer">
           <h2>Portfolio</h2>
         </a>
       </div>
       <div class="menu">
-        <a href="#page_4">ABOUT ME</a>
-        <a id="page_2_b" href="#page_2">PROJECT 1</a>
-        <a href="#page_3" style="padding-right: 0;">PROJECT 2</a>
+        <a onclick="location.href='#page_4'"style="cursor:pointer">ABOUT ME</a>
+        <a onclick="location.href='#page_2'"style="cursor:pointer">PROJECT 1</a>
+        <a onclick="location.href='#page_3'" style="cursor:pointer; padding-right: 0;">PROJECT 2</a>
       </div>
-    </div>
     </div>
     <!------------- 메인 상단 구역 ------------->
     <div class="main_1">
@@ -161,11 +160,18 @@
     </h2>
     <div class="s_main_2">
       <div class="s_main_2_l">
-        <div style="display:inline-block; width:49.6%; padding: 0 3% 0 0;">
-          <img src="img/somewhere_1.png" style="width:100%;">
+        <div class="modal">
+          <img class="modal_content">
         </div>
         <div style="display:inline-block; width:49.6%; padding: 0 3% 0 0;">
-          <img src="img/somewhere_2.png" style="width:100%;">
+          <img src="img/somewhere_1.png" class="img" style="width:100%;">
+        </div>
+        <div class="modal">
+          <span class="close">&times;</span>
+          <img class="modal_content">
+        </div>
+        <div style="display:inline-block; width:49.6%; padding: 0 3% 0 0;">
+          <img src="img/somewhere_2.png" class="img2" style="width:100%;">
         </div>
         <div style="width:49.6%; display:inline-block; padding: 0.5% 3% 5.5% 0;">
           <p>
@@ -184,10 +190,10 @@
           </p>
         </div>
         <div style="display:inline-block; width:49.6%; padding: 0 3% 0 0;">
-          <img src="img/somewhere_3.png" style="width:100%;">
+          <img src="img/somewhere_3.png" class="img3" style="width:100%;">
         </div>
         <div style="display:inline-block; width:49.6%; padding: 0 3% 0 0;">
-          <img src="img/somewhere_4.png" style="width:100%;">
+          <img src="img/somewhere_4.png" class="img4" style="width:100%;">
         </div>
         <div style="width:49.6%; display:inline-block; padding: 0.5% 3% 5% 0;">
           <p>
@@ -288,15 +294,15 @@
     </h2>
     <div class="f_main_2">
       <div class="f_main_2_1">
-        <img class="fridge_img_1" src="img/fridge_img_1.png" style="width: 100%;">
+        <img class="img5" src="img/fridge_img_1.png" style="width: 100%;">
         <h3 style="padding-top:1%">로그인</h3>
       </div>
       <div class="f_main_2_2">
-        <img class="fridge_img_2" src="img/fridge_img_2.png" style="width: 100%;">
+        <img class="img6" src="img/fridge_img_2.png" style="width: 100%;">
         <h3 style="padding-top:1%">회원가입</h3>
       </div>
       <div class="f_main_2_3">
-        <img class="fridge_img_3" src="img/fridge_img_3.png" style="width: 100%;">
+        <img class="img7" src="img/fridge_img_3.png" style="width: 100%;">
         <h3 style="padding-top:1%">회원정보 수정</h3>
       </div>
     </div>
